@@ -1,0 +1,12 @@
+[package]
+name = "t-rex"
+version = "0.0.0"
+edition = "2021"
+authors = ["Sammy <sammy@stegabob.com>"]
+repository = "https://github.com/stegaBOB/t-rex/"
+license = "Apache-2.0"
+description = "A script for inserting a new page in a number-indexed Docusaurus directory"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
