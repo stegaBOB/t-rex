@@ -51,7 +51,7 @@ pub fn file_prefix(file_name: &str) -> String {
 }
 
 pub fn is_numeric(file_prefix: &str) -> bool {
-    file_prefix.chars().all(|c| c.is_digit(10))
+    file_prefix.chars().all(|c| c.is_ascii_digit())
 }
 
 pub fn num_prefix(file_name: &str) -> Result<usize> {
